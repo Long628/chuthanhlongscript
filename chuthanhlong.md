@@ -13,7 +13,7 @@ getgenv().Configs = {
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
-        ["Health"] = 3500,
+        ["Health"] = 4500,
         ["Come back"] = false
     },
     ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ...
@@ -37,7 +37,7 @@ getgenv().Configs = {
             }
         },
         ["Fruit"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 1.8,
             ["Skills"] = {
                 ["Z"] = {
@@ -64,7 +64,7 @@ getgenv().Configs = {
             }
         },
         ["Sword"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
