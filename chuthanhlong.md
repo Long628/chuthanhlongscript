@@ -1,110 +1,91 @@
-getgenv().Configs = {
-    ["Team"] = "Pirates", -- Pirates/Marines
-    ["Auto Ken"] = true,
-    ["Auto Buso"] = true,
-    ["Auto turn on race v3"] = true,
-    ["Auto turn on race v4"] = true,
-    ["FPS Boost"] = false,
-    ["Click Time"] = 0.2,
-    ["Bypass TP"] = true,
-    ["Chat"] = {
-        ["Enable"] = false,
-        ["Message"] = {""}, -- Input your message here
-    },
-    ["Run When Low Health"] = {
-        ["Enable"] = true,
-        ["Health"] = 4500,
-        ["Come back"] = false
-    },
-    ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ...
-    ["Weapons"] = {
+script_key = ""
+getgenv().Team = "Pirates"
+getgenv().Setting = { -- Select Weapon, Self Explain
         ["Melee"] = {
             ["Enable"] = true,
-            ["Delay"] = 1.75,
+            ["Delay"] = 3,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
-                ["X"] = {
+            [ "X"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
+    
                 ["C"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
-                }
-            }
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
         },
-        ["Fruit"] = {
+        ["Blox Fruit"] = {
             ["Enable"] = false,
-            ["Delay"] = 1.8,
+            ["Delay"] = 4,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
                 ["X"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
-
+    
                 ["C"] = {
-                    ["Enable"] = false,
+                    ["Enable"] = true,
                     ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
                 ["V"] = {
-                    ["Enable"] = false,
+                    ["Enable"] = true,
                     ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
                 ["F"] = {
                     ["Enable"] = false,
                     ["HoldTime"] = 0,
-                }
-            }
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 1,
+            ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.2,
+                    ["HoldTime"] = 1,
+                    ["TimeToNextSkill"] = 0,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.5,
-                }
-            }
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
         },
         ["Gun"] = {
             ["Enable"] = false,
-            ["Delay"] = 0.5,
+            ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
                 ["X"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
-                }
-            }
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
         }
-    },
-    ["Theme"] = {
-        ["Enable"] = true,
-        ["Name"] = "Ayaka", -- Hutao, Raiden, Ayaka, Yelan
-        ["Custom Theme"] = {
-            ["Enable"] = false,
-            ["Text Color"] = Color3.fromRGB(231, 85, 88),
-            ["Character Position"] = UDim2.new(0.563000023, 0, -0.174999997, 0)
-        }
-    },
-    ["Webhook"] = {
-        ["Enable"] = true,
-        ["Url"] = "",
-        ["Image"] = ""
     }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/autobounty.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7c85f07250e76490265b724cca4e1d9c.lua"))()
