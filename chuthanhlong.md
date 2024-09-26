@@ -1,4 +1,4 @@
-getgenv().Configs = {
+
     ["Team"] = "Pirates", -- Pirates/Marines
     ["Auto Ken"] = true,
     ["Auto Buso"] = true,
