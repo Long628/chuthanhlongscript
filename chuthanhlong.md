@@ -94,7 +94,7 @@ getgenv().Configs = {
     },
     ["Theme"] = {
         ["Enable"] = true,
-        ["Name"] = "Yelan", -- Hutao, Raiden, Ayaka, Yelan
+        ["Name"] = "Raiden", -- Hutao, Raiden, Ayaka, Yelan
         ["Custom Theme"] = {
             ["Enable"] = false,
             ["Text Color"] = Color3.fromRGB(231, 85, 88),
