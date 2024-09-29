@@ -1,4 +1,4 @@
-
+getgenv().Configs = {
     ["Team"] = "Pirates", -- Pirates/Marines
     ["Auto Ken"] = true,
     ["Auto Buso"] = true,
@@ -13,7 +13,7 @@
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
-        ["Health"] = 4500,
+        ["Health"] = 5000,
         ["Come back"] = false
     },
     ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ...
@@ -94,7 +94,7 @@
     },
     ["Theme"] = {
         ["Enable"] = true,
-        ["Name"] = "Ayaka", -- Hutao, Raiden, Ayaka, Yelan
+        ["Name"] = "Yelan", -- Hutao, Raiden, Ayaka, Yelan
         ["Custom Theme"] = {
             ["Enable"] = false,
             ["Text Color"] = Color3.fromRGB(231, 85, 88),
@@ -108,3 +108,4 @@
     }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/autobounty.lua"))()
+    
