@@ -16,7 +16,7 @@ getgenv().Configs = {
         ["Health"] = 5000,
         ["Come back"] = false
     },
-    ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ...
+    ["Region"] = "United States", -- Singapore, United States, Germany, France, India, ??? ...
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
@@ -94,7 +94,7 @@ getgenv().Configs = {
     },
     ["Theme"] = {
         ["Enable"] = true,
-        ["Name"] = "Raiden", -- Hutao, Raiden, Ayaka, Yelan
+        ["Name"] = "Yelan", -- Hutao, Raiden, Ayaka, Yelan
         ["Custom Theme"] = {
             ["Enable"] = false,
             ["Text Color"] = Color3.fromRGB(231, 85, 88),
